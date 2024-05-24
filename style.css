@@ -38,10 +38,7 @@ body.dark {
 
 /*Nav*/
 .logo {
-  font-weight: bold;
-  color: var(--headline);
-  font-family: "Dancing Script", cursive;
-  font-size: 4.8rem;
+  height: 6vh;
 }
 
 
@@ -316,9 +313,13 @@ body.dark .themes #light-sun:hover {
     background-color: white;
 
   }
+  .logo{
+    height: 4vh;
+  }
 }
 
 @media (min-width: 1024px) {
+
   .wrapper {
     width: 80%;
     max-width: 100rem;
